@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.055);
+  height: 90vh;
+  
+}
+
+Button{
+  height: 40px;
+  width: 120px;
+  margin-top: 20px;
+  border-radius: 10px 0px 0px 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 2px 4px 10px #bebebe,
+                  2px -2px 8px #ffffff;
+  transition: 1s;                
+}
+
+
+Button:hover{
+  box-shadow: inset 2px 4px 10px #bebebe,
+                  inset 2px -2px 8px #ffffff;
+}
+
+#buttonOff{ 
+  border-radius: 0px 10px 10px 0px;
+ 
+             
+}
+
+
+img{
+  width: 250px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    img{
+      width: 200px;
+      margin-top: 10px;
+    
+  }
+}
